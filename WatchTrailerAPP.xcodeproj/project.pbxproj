@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180135E92D0B5FB800DCF7B9 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 180135E82D0B5FB800DCF7B9 /* YouTubeiOSPlayerHelper */; };
+		18B9592E2D006A14005BF2FB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 18B9592D2D006A14005BF2FB /* Alamofire */; };
+		18B959482D009A33005BF2FB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 18B959472D009A33005BF2FB /* SDWebImage */; };
+		C9BA960CCBC3B1C539F0F84C /* Pods_WatchTrailerAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623B99E62D9FCF326FC4BC21 /* Pods_WatchTrailerAPP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B9590A2D00690A005BF2FB /* WatchTrailerAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTrailerAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36529977666D48ECF116ACA4 /* Pods-WatchTrailerAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchTrailerAPP.release.xcconfig"; path = "Target Support Files/Pods-WatchTrailerAPP/Pods-WatchTrailerAPP.release.xcconfig"; sourceTree = "<group>"; };
+		606347F0157B90CE093C0D7C /* Pods-WatchTrailerAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchTrailerAPP.debug.xcconfig"; path = "Target Support Files/Pods-WatchTrailerAPP/Pods-WatchTrailerAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		623B99E62D9FCF326FC4BC21 /* Pods_WatchTrailerAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchTrailerAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		18B9591C2D00690C005BF2FB /* Exceptions for "WatchTrailerAPP" folder in "WatchTrailerAPP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: StoryBoard/LaunchScreen.storyboard",
+				"/Localized: StoryBoard/Main.storyboard",
+				Assets.xcassets,
+				Info.plist,
+				View/CollectionCell/NowPlayingCollectionViewCell.xib,
+				View/CollectionCell/TrendingCollectionViewCell.xib,
+			);
+			target = 18B959092D00690A005BF2FB /* WatchTrailerAPP */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		180134042D06E70700DCF7B9 /* Exceptions for "WatchTrailerAPP" folder in "Compile Sources" phase from "WatchTrailerAPP" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 18B959062D00690A005BF2FB /* Sources */;
+			membershipExceptions = (
+				"/Localized: StoryBoard/Main.storyboard",
+				View/CollectionCell/NowPlayingCollectionViewCell.xib,
+				View/CollectionCell/TrendingCollectionViewCell.xib,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		18B9590C2D00690A005BF2FB /* WatchTrailerAPP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				18B9591C2D00690C005BF2FB /* Exceptions for "WatchTrailerAPP" folder in "WatchTrailerAPP" target */,
+				180134042D06E70700DCF7B9 /* Exceptions for "WatchTrailerAPP" folder in "Compile Sources" phase from "WatchTrailerAPP" target */,
+			);
+			path = WatchTrailerAPP;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B959072D00690A005BF2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B959482D009A33005BF2FB /* SDWebImage in Frameworks */,
+				18B9592E2D006A14005BF2FB /* Alamofire in Frameworks */,
+				C9BA960CCBC3B1C539F0F84C /* Pods_WatchTrailerAPP.framework in Frameworks */,
+				180135E92D0B5FB800DCF7B9 /* YouTubeiOSPlayerHelper in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B959012D00690A005BF2FB = {
+			isa = PBXGroup;
+			children = (
+				18B9590C2D00690A005BF2FB /* WatchTrailerAPP */,
+				18B9590B2D00690A005BF2FB /* Products */,
+				54F4BC4E07B13ABC7037EC8C /* Pods */,
+				21E4DF87DCE613FF472DE8BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18B9590B2D00690A005BF2FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B9590A2D00690A005BF2FB /* WatchTrailerAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21E4DF87DCE613FF472DE8BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				623B99E62D9FCF326FC4BC21 /* Pods_WatchTrailerAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54F4BC4E07B13ABC7037EC8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				606347F0157B90CE093C0D7C /* Pods-WatchTrailerAPP.debug.xcconfig */,
+				36529977666D48ECF116ACA4 /* Pods-WatchTrailerAPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B959092D00690A005BF2FB /* WatchTrailerAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B9591D2D00690C005BF2FB /* Build configuration list for PBXNativeTarget "WatchTrailerAPP" */;
+			buildPhases = (
+				AD953530D3CDCFCBD101FB7A /* [CP] Check Pods Manifest.lock */,
+				18B959062D00690A005BF2FB /* Sources */,
+				18B959072D00690A005BF2FB /* Frameworks */,
+				18B959082D00690A005BF2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				18B9590C2D00690A005BF2FB /* WatchTrailerAPP */,
+			);
+			name = WatchTrailerAPP;
+			packageProductDependencies = (
+				18B9592D2D006A14005BF2FB /* Alamofire */,
+				18B959472D009A33005BF2FB /* SDWebImage */,
+				180135E82D0B5FB800DCF7B9 /* YouTubeiOSPlayerHelper */,
+			);
+			productName = WatchTrailerAPP;
+			productReference = 18B9590A2D00690A005BF2FB /* WatchTrailerAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B959022D00690A005BF2FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					18B959092D00690A005BF2FB = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 18B959052D00690A005BF2FB /* Build configuration list for PBXProject "WatchTrailerAPP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B959012D00690A005BF2FB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				18B9592C2D006A14005BF2FB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				18B959462D009A33005BF2FB /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				180135E72D0B5FB800DCF7B9 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 18B9590B2D00690A005BF2FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B959092D00690A005BF2FB /* WatchTrailerAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B959082D00690A005BF2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD953530D3CDCFCBD101FB7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchTrailerAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B959062D00690A005BF2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18B9591E2D00690C005BF2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606347F0157B90CE093C0D7C /* Pods-WatchTrailerAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchTrailerAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.WatchTrailerAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B9591F2D00690C005BF2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36529977666D48ECF116ACA4 /* Pods-WatchTrailerAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchTrailerAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.WatchTrailerAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18B959202D00690C005BF2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B959212D00690C005BF2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B959052D00690A005BF2FB /* Build configuration list for PBXProject "WatchTrailerAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B959202D00690C005BF2FB /* Debug */,
+				18B959212D00690C005BF2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B9591D2D00690C005BF2FB /* Build configuration list for PBXNativeTarget "WatchTrailerAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B9591E2D00690C005BF2FB /* Debug */,
+				18B9591F2D00690C005BF2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		180135E72D0B5FB800DCF7B9 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+		18B9592C2D006A14005BF2FB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		18B959462D009A33005BF2FB /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		180135E82D0B5FB800DCF7B9 /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 180135E72D0B5FB800DCF7B9 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
+		18B9592D2D006A14005BF2FB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18B9592C2D006A14005BF2FB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		18B959472D009A33005BF2FB /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18B959462D009A33005BF2FB /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18B959022D00690A005BF2FB /* Project object */;
+}

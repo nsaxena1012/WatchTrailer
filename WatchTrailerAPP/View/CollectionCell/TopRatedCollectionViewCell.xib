@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TopRatedCollectionViewCell" id="gTV-IL-0wX" customClass="TopRatedCollectionViewCell" customModule="WatchTrailerAPP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="257" height="318"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="257" height="318"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BEp-02-3yx">
+                        <rect key="frame" x="5" y="5" width="247" height="308"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pRs-do-ty9">
+                                <rect key="frame" x="23.666666666666671" y="29" width="200" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="fdO-ow-Os0"/>
+                                    <constraint firstAttribute="height" constant="250" id="mWx-yN-a39"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0078431377190000002" green="0.02745098248" blue="0.24313727020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="pRs-do-ty9" firstAttribute="centerX" secondItem="BEp-02-3yx" secondAttribute="centerX" id="AwA-f5-iWd"/>
+                            <constraint firstItem="pRs-do-ty9" firstAttribute="centerY" secondItem="BEp-02-3yx" secondAttribute="centerY" id="XoP-9W-NJe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="BEp-02-3yx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="GUe-i3-d1W"/>
+                <constraint firstAttribute="bottom" secondItem="BEp-02-3yx" secondAttribute="bottom" constant="5" id="UvG-wZ-kJ7"/>
+                <constraint firstAttribute="trailing" secondItem="BEp-02-3yx" secondAttribute="trailing" constant="5" id="a9R-TD-YdS"/>
+                <constraint firstItem="BEp-02-3yx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="yWm-YS-5NJ"/>
+            </constraints>
+            <connections>
+                <outlet property="topRatedHomeImage" destination="pRs-do-ty9" id="yXu-qP-UP6"/>
+                <outlet property="topRatedHomeView" destination="BEp-02-3yx" id="rEb-Ei-c8q"/>
+            </connections>
+            <point key="canvasLocation" x="7" y="21"/>
+        </collectionViewCell>
+    </objects>
+</document>
