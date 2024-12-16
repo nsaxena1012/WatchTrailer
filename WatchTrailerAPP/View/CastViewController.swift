@@ -44,8 +44,7 @@ extension CastViewController : UITableViewDelegate,UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = UIView()
-      //  headerView.backgroundColor = UIColor.systemGray6  // Optional: Set background color for the header
-
+     
         let headerLabel = UILabel()
         headerLabel.font = UIFont.boldSystemFont(ofSize: 18) // Customize font size and weight
         headerLabel.textColor = UIColor.white                 // Change text color to red

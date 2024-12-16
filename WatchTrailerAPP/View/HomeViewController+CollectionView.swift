@@ -89,8 +89,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
         detailVC.modalPresentationStyle = .overFullScreen
         detailVC.movieID = movieID
-        //        let detailVC = DetailViewController()
-        //           detailVC.modalPresentationStyle = .overFullScreen
+      
         
         // 5. Animate the snapshot to expand and cover the screen
         UIView.animate(withDuration: 0.7, delay: 0, options: .curveEaseInOut, animations: {
