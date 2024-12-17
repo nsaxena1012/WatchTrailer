@@ -17,30 +17,27 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BEp-02-3yx">
-                        <rect key="frame" x="5" y="5" width="247" height="308"/>
+                        <rect key="frame" x="0.0" y="0.0" width="257" height="318"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pRs-do-ty9">
-                                <rect key="frame" x="23.666666666666671" y="29" width="200" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="fdO-ow-Os0"/>
-                                    <constraint firstAttribute="height" constant="250" id="mWx-yN-a39"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pRs-do-ty9">
+                                <rect key="frame" x="0.0" y="0.0" width="257" height="318"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0078431377190000002" green="0.02745098248" blue="0.24313727020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="pRs-do-ty9" firstAttribute="centerX" secondItem="BEp-02-3yx" secondAttribute="centerX" id="AwA-f5-iWd"/>
-                            <constraint firstItem="pRs-do-ty9" firstAttribute="centerY" secondItem="BEp-02-3yx" secondAttribute="centerY" id="XoP-9W-NJe"/>
+                            <constraint firstAttribute="trailing" secondItem="pRs-do-ty9" secondAttribute="trailing" id="CDv-cn-WhQ"/>
+                            <constraint firstItem="pRs-do-ty9" firstAttribute="top" secondItem="BEp-02-3yx" secondAttribute="top" id="gFQ-eC-bYD"/>
+                            <constraint firstItem="pRs-do-ty9" firstAttribute="leading" secondItem="BEp-02-3yx" secondAttribute="leading" id="odO-0q-2ic"/>
+                            <constraint firstAttribute="bottom" secondItem="pRs-do-ty9" secondAttribute="bottom" id="rJC-aJ-pgd"/>
                         </constraints>
                     </view>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="BEp-02-3yx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="GUe-i3-d1W"/>
-                <constraint firstAttribute="bottom" secondItem="BEp-02-3yx" secondAttribute="bottom" constant="5" id="UvG-wZ-kJ7"/>
-                <constraint firstAttribute="trailing" secondItem="BEp-02-3yx" secondAttribute="trailing" constant="5" id="a9R-TD-YdS"/>
-                <constraint firstItem="BEp-02-3yx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="yWm-YS-5NJ"/>
+                <constraint firstItem="BEp-02-3yx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="GUe-i3-d1W"/>
+                <constraint firstAttribute="bottom" secondItem="BEp-02-3yx" secondAttribute="bottom" id="UvG-wZ-kJ7"/>
+                <constraint firstAttribute="trailing" secondItem="BEp-02-3yx" secondAttribute="trailing" id="a9R-TD-YdS"/>
+                <constraint firstItem="BEp-02-3yx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yWm-YS-5NJ"/>
             </constraints>
             <connections>
                 <outlet property="topRatedHomeImage" destination="pRs-do-ty9" id="yXu-qP-UP6"/>

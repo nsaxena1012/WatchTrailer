@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJo-wf-Pzb">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1300"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TMDB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKH-JA-Th5">
                                                 <rect key="frame" x="8" y="0.0" width="377" height="108"/>
@@ -77,10 +77,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="sur-2W-g4h">
-                                                <rect key="frame" x="0.0" y="540" width="393" height="150"/>
+                                                <rect key="frame" x="0.0" y="540" width="393" height="200"/>
                                                 <color key="backgroundColor" red="0.050980389119999997" green="0.1411764771" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="150" id="xXu-5W-iJg"/>
+                                                    <constraint firstAttribute="height" constant="200" id="xXu-5W-iJg"/>
                                                 </constraints>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="30" id="NA0-ha-aDl">
                                                     <size key="itemSize" width="128" height="128"/>
@@ -91,7 +91,7 @@
                                                 <cells/>
                                             </collectionView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Rated" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipa-WJ-hiq">
-                                                <rect key="frame" x="8" y="710" width="98.666666666666671" height="44"/>
+                                                <rect key="frame" x="8" y="760" width="98.666666666666671" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="6bY-oS-eUy"/>
                                                 </constraints>
@@ -100,10 +100,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ji5-ii-BTE">
-                                                <rect key="frame" x="0.0" y="762" width="393" height="150"/>
+                                                <rect key="frame" x="0.0" y="812" width="393" height="200"/>
                                                 <color key="backgroundColor" red="0.050980389119999997" green="0.1411764771" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="150" id="2hL-o0-BOw"/>
+                                                    <constraint firstAttribute="height" constant="200" id="2hL-o0-BOw"/>
                                                 </constraints>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="30" id="i68-Wv-tpg">
                                                     <size key="itemSize" width="128" height="128"/>
@@ -114,7 +114,7 @@
                                                 <cells/>
                                             </collectionView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upcoming Movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ef-Xm-57z">
-                                                <rect key="frame" x="8" y="932" width="176" height="44"/>
+                                                <rect key="frame" x="8" y="1032" width="176" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="urW-kM-m1p"/>
                                                 </constraints>
@@ -123,10 +123,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1hW-6P-etE">
-                                                <rect key="frame" x="0.0" y="984" width="393" height="150"/>
+                                                <rect key="frame" x="0.0" y="1084" width="393" height="200"/>
                                                 <color key="backgroundColor" red="0.050980389119999997" green="0.1411764771" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="150" id="u4l-AI-hKn"/>
+                                                    <constraint firstAttribute="height" constant="200" id="u4l-AI-hKn"/>
                                                 </constraints>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="30" id="W7C-xI-n1K">
                                                     <size key="itemSize" width="128" height="128"/>
@@ -169,7 +169,7 @@
                                             <constraint firstAttribute="trailing" secondItem="ZBb-wq-cUv" secondAttribute="trailing" id="kAg-90-mWL"/>
                                             <constraint firstItem="ji5-ii-BTE" firstAttribute="leading" secondItem="mJo-wf-Pzb" secondAttribute="leading" id="r4y-BU-laK"/>
                                             <constraint firstItem="ZBb-wq-cUv" firstAttribute="leading" secondItem="mJo-wf-Pzb" secondAttribute="leading" id="uRP-w8-bhk"/>
-                                            <constraint firstAttribute="height" constant="1200" id="v8J-zZ-eqy"/>
+                                            <constraint firstAttribute="height" constant="1300" id="v8J-zZ-eqy"/>
                                             <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="7ef-Xm-57z" secondAttribute="trailing" constant="286.32999999999998" id="xbS-95-wMT"/>
                                         </constraints>
                                     </view>
@@ -346,7 +346,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4yn-ya-e16">
-                                                        <rect key="frame" x="8" y="180" width="361" height="431"/>
+                                                        <rect key="frame" x="8" y="180.3333333333334" width="361" height="430.66666666666674"/>
                                                         <color key="backgroundColor" red="0.050980389119999997" green="0.1411764771" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
@@ -535,7 +535,7 @@
     <resources>
         <image name="clear" catalog="system" width="128" height="114"/>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

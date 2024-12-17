@@ -32,6 +32,8 @@ class HomeViewController: UIViewController {
         registerCell()
         fetchAPI()
         startAutoScroll()
+        print(nowPlayingCollectionView.frame.width)
+        print(nowPlayingCollectionView.frame.height)
     }
     
     func fetchAPI() {

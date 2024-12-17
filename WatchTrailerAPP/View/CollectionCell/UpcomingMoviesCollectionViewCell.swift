@@ -16,11 +16,22 @@ class UpcomingMoviesCollectionViewCell: UICollectionViewCell {
             // Update UI when `trendingMovies` is set using Property Observer DidSet
         guard let movie = upcomingMovies else { return }
             updateUI(movie: movie)
+            setUI()
         }
     }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+    }
+    func setUI() {
+        upcomingHomeImage.layer.cornerRadius = 5
+        upcomingHomeImage.layer.shadowColor = UIColor.white.cgColor
+       upcomingHomeImage.layer.shadowOpacity = 0.5
+        upcomingHomeImage.layer.shadowOffset = .zero
+        upcomingHomeVie.layer.cornerRadius = 5
+//        upcomingHomeVie.layer.shadowColor = UIColor.white.cgColor
+//        upcomingHomeVie.layer.shadowOpacity = 0.5
+//        upcomingHomeVie.layer.shadowOffset = .zero
     }
     private func updateUI(movie: TrendingMovie) {
         // Replace this with your actual base URL

@@ -14,12 +14,23 @@ class TopRatedCollectionViewCell: UICollectionViewCell {
         didSet {
             guard let movie = topRatedMovie else { return }
                 updateUI(movie: movie)
+            setUI()
             }
         }
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+    }
+    func setUI() {
+        topRatedHomeImage.layer.cornerRadius = 5
+        topRatedHomeImage.layer.shadowColor = UIColor.white.cgColor
+        topRatedHomeImage.layer.shadowOpacity = 0.5
+        topRatedHomeImage.layer.shadowOffset = .zero
+        topRatedHomeView.layer.cornerRadius = 5
+//        topRatedHomeView.layer.shadowColor = UIColor.white.cgColor
+//        topRatedHomeView.layer.shadowOpacity = 0.5
+//        topRatedHomeView.layer.shadowOffset = .zero
     }
     private func updateUI(movie: TrendingMovie) {
         // Replace this with your actual base URL

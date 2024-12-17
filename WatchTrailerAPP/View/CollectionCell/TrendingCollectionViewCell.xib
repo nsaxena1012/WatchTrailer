@@ -17,13 +17,12 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sfR-ht-duV">
-                        <rect key="frame" x="5" y="5" width="247" height="308"/>
+                        <rect key="frame" x="0.0" y="0.0" width="257" height="318"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tLC-yq-Qn3">
-                                <rect key="frame" x="0.0" y="0.0" width="247" height="308"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tLC-yq-Qn3">
+                                <rect key="frame" x="0.0" y="0.0" width="257" height="318"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.050980389119999997" green="0.1411764771" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="tLC-yq-Qn3" secondAttribute="bottom" id="Fzm-l6-cdT"/>
                             <constraint firstItem="tLC-yq-Qn3" firstAttribute="leading" secondItem="sfR-ht-duV" secondAttribute="leading" id="HaX-se-RLK"/>
@@ -35,10 +34,10 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="sfR-ht-duV" secondAttribute="bottom" constant="5" id="OPH-09-Kvw"/>
-                <constraint firstAttribute="trailing" secondItem="sfR-ht-duV" secondAttribute="trailing" constant="5" id="cj2-xD-mta"/>
-                <constraint firstItem="sfR-ht-duV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="tmj-wA-C9a"/>
-                <constraint firstItem="sfR-ht-duV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="uFt-JC-lqf"/>
+                <constraint firstAttribute="bottom" secondItem="sfR-ht-duV" secondAttribute="bottom" id="OPH-09-Kvw"/>
+                <constraint firstAttribute="trailing" secondItem="sfR-ht-duV" secondAttribute="trailing" id="cj2-xD-mta"/>
+                <constraint firstItem="sfR-ht-duV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tmj-wA-C9a"/>
+                <constraint firstItem="sfR-ht-duV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uFt-JC-lqf"/>
             </constraints>
             <size key="customSize" width="257" height="318"/>
             <connections>

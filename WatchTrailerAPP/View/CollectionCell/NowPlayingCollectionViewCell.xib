@@ -17,37 +17,34 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7SD-7M-8SN">
-                        <rect key="frame" x="5" y="5" width="247" height="308"/>
+                        <rect key="frame" x="0.0" y="0.0" width="257" height="318"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xI2-Di-Ktc">
-                                <rect key="frame" x="23.666666666666671" y="29" width="200" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="YXs-1b-Ins"/>
-                                    <constraint firstAttribute="width" constant="200" id="iW2-nL-uvK"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xI2-Di-Ktc">
+                                <rect key="frame" x="0.0" y="0.0" width="257" height="318"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0078431377190000002" green="0.02745098248" blue="0.24313727020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="xI2-Di-Ktc" firstAttribute="centerX" secondItem="7SD-7M-8SN" secondAttribute="centerX" id="Ioa-QY-tJ5"/>
-                            <constraint firstItem="xI2-Di-Ktc" firstAttribute="centerY" secondItem="7SD-7M-8SN" secondAttribute="centerY" id="VN9-P6-7D4"/>
+                            <constraint firstAttribute="bottom" secondItem="xI2-Di-Ktc" secondAttribute="bottom" id="7I3-R4-B2D"/>
+                            <constraint firstAttribute="trailing" secondItem="xI2-Di-Ktc" secondAttribute="trailing" id="bgw-aa-9eC"/>
+                            <constraint firstItem="xI2-Di-Ktc" firstAttribute="leading" secondItem="7SD-7M-8SN" secondAttribute="leading" id="nXm-PT-dN9"/>
+                            <constraint firstItem="xI2-Di-Ktc" firstAttribute="top" secondItem="7SD-7M-8SN" secondAttribute="top" id="yrv-pi-rcz"/>
                         </constraints>
                     </view>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="7SD-7M-8SN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="Dwn-z6-Kz8"/>
-                <constraint firstAttribute="trailing" secondItem="7SD-7M-8SN" secondAttribute="trailing" constant="5" id="UUQ-de-O1f"/>
-                <constraint firstItem="7SD-7M-8SN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="lgF-9h-FVs"/>
-                <constraint firstAttribute="bottom" secondItem="7SD-7M-8SN" secondAttribute="bottom" constant="5" id="sAf-H7-e0W"/>
+                <constraint firstItem="7SD-7M-8SN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Dwn-z6-Kz8"/>
+                <constraint firstAttribute="trailing" secondItem="7SD-7M-8SN" secondAttribute="trailing" id="UUQ-de-O1f"/>
+                <constraint firstItem="7SD-7M-8SN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lgF-9h-FVs"/>
+                <constraint firstAttribute="bottom" secondItem="7SD-7M-8SN" secondAttribute="bottom" id="sAf-H7-e0W"/>
             </constraints>
             <size key="customSize" width="50" height="248"/>
             <connections>
                 <outlet property="nowPlayingHomeImage" destination="xI2-Di-Ktc" id="27F-6w-sKK"/>
                 <outlet property="nowPlayingHomeView" destination="7SD-7M-8SN" id="z6W-AS-6Oc"/>
             </connections>
-            <point key="canvasLocation" x="6.1068702290076331" y="90.140845070422543"/>
+            <point key="canvasLocation" x="5.343511450381679" y="90.140845070422543"/>
         </collectionViewCell>
     </objects>
 </document>

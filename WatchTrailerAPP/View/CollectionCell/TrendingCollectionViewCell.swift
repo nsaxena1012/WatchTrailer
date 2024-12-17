@@ -24,7 +24,11 @@ class TrendingCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     func setUI(){
-//        homeView.layer.cornerRadius = 10
+        homeImage.layer.cornerRadius = 5
+        homeImage.layer.shadowColor = UIColor.white.cgColor
+        homeImage.layer.shadowOpacity = 0.5
+        homeImage.layer.shadowOffset = .zero
+        homeView.layer.cornerRadius = 5
 //        homeView.layer.shadowColor = UIColor.white.cgColor
 //        homeView.layer.shadowOpacity = 0.5
 //        homeView.layer.shadowOffset = .zero

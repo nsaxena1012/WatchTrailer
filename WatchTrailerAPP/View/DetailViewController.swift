@@ -32,40 +32,27 @@ class DetailViewController: UIViewController {
     var allCastNames: [String] = []
     var generes : [String] = []
     var castNamesToShow: [String] = []
+    var castData : CastResponse?
     var trailers: [Trailer] = []
+    var movieDetails : MovieDetailedModel?
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchMovieDetails(movieId: movieID ?? 0)
-        castDetail(movieID: movieID ?? 0)
-        reviewDetail(movieID: movieID ?? 0)
-        trailerFetch(movieID: movieID ?? 0)
+        guard let movieID = movieID else {
+            // Show error or handle nil case
+            return
+        }
+        loadAllData(movieId: movieID)
+       
         moreButton.addTarget(self, action: #selector(moreButtonTapped), for: .touchUpInside)
            
     }
+    
+    
     
     @IBAction func crossButtonTapped(_ sender: UIButton) {
         self.dismiss(animated: true)
     }
     
-   
-    
-    func updateUI(with data: MovieDetailedModel){
-        castmovieTitle = data.title
-        movieTitle.text = data.title
-        releaseDate.text = "Release Date: \(data.releaseDate )"
-        runtime.text = "Runtime: \(data.runtime ) minutes"
-        overviewTextView.text = data.overview
-        generes = data.genres.map{ $0.name }
-        let baseURL = "https://image.tmdb.org/t/p/w500"
-        if let posterPath = data.backdropPath,
-           let imageUrl = URL(string: baseURL + posterPath) {
-            posterPathImage.sd_setImage(with: imageUrl, placeholderImage: UIImage(named: "placeholder"))
-        } else {
-            print("Invalid URL: \(data.backdropPath ?? "nil")")
-            posterPathImage.image = UIImage(named: "placeholder") ?? UIImage()
-        }
-        
-    }
     func castData(with data: CastResponse) {
         allCastNames = data.cast.map { $0.name }
 

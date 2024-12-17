@@ -25,10 +25,14 @@ class NowPlayingCollectionViewCell: UICollectionViewCell {
     }
     
     func setUI() {
-        nowPlayingHomeView.layer.cornerRadius = 10
-        nowPlayingHomeView.layer.shadowColor = UIColor.white.cgColor
-        nowPlayingHomeView.layer.shadowOpacity = 0.5
-        nowPlayingHomeView.layer.shadowOffset = .zero
+        nowPlayingHomeImage.layer.cornerRadius = 5
+        nowPlayingHomeImage.layer.shadowColor = UIColor.white.cgColor
+        nowPlayingHomeImage.layer.shadowOpacity = 0.5
+        nowPlayingHomeImage.layer.shadowOffset = .zero
+        nowPlayingHomeView.layer.cornerRadius = 5
+//        nowPlayingHomeView.layer.shadowColor = UIColor.white.cgColor
+//        nowPlayingHomeView.layer.shadowOpacity = 0.5
+//        nowPlayingHomeView.layer.shadowOffset = .zero
     }
     private func updateUI(movie: TrendingMovie) {
         // Replace this with your actual base URL
